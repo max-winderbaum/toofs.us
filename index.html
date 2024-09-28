@@ -1,25 +1,52 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<style>
-		img {
-			max-width: 300px;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>How to get to Kenyon St</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .container {
+            padding: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+            background-color: #4285F4;
+            padding: 10px 20px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        a:hover {
+            background-color: #3367D6;
+        }
+
+        img {
+            width: 300px;
+            margin:0 auto;
+        }
+    </style>
 </head>
 <body>
-<a href="http://maps.apple.com/?daddr=3524+Cheasty+Blvd+S+Seattle+WA+98144&dirflg=d&t=m">
-	<h1>Directions</h1>
-</a>
-<h2>When you get here:</h2>
-<ol>
-	<li>Turn into the driveway here</li>
-	<img src="./drive.jpg" />
-	<li>Park here</li>
-	<img src="./park.jpg" />
-	<li>This is our house - come on in!</li>
-	<img src="./house.jpg" />
-</ol>
-</ol>
+    <div class="container">
+        <h3>5321 S. Kenyon St, Seattle WA 98118</h3>
+        <a href="http://maps.apple.com/?daddr=47°31’54.0”N+122°15’55.4”W&dirflg=d&t=m">
+            <h1>Directions</h1>
+        </a>
+        <h2>Turn East on Kenyon St</h2>
+        <img src="img/sign.jpg">
+        <h2>Look for the orange cones - that&rsquo;s our driveway!</h2>
+        <img src="img/driveway.jpg">
+        <h2>Park on the bricks</h2>
+        <img src="img/park.jpg">
+        <h2>Follow the bricks to our door!</h2>
+    </div>
 </body>
 </html>
